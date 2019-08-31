@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+         android:id="@+id/search_bar_icon"
+         android:title="search"
+         android:icon="@drawable/search_image"
+
+         app:showAsAction="always|collapseActionView"
+         app:actionViewClass="android.widget.SearchView"
+    />
+
+         <item
+           android:title="favourites"
+           android:id="@+id/favourites"
+           android:icon="@drawable/favourites_icon_image"
+
+         />
+
+       <item
+               android:title="settings"
+               android:id="@+id/settings"
+               android:icon="@drawable/settings_icon_image"
+
+       />
+
+
+
+</menu>
